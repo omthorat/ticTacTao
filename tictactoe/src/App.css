@@ -1,10 +1,12 @@
+
 .App {
   text-align: center;
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  max-width: calc(3, 100px);
+  width: 100%;
+  /* max-width: calc(3, 200px); */
 }
 
 .App-logo {

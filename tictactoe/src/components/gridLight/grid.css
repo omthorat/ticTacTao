@@ -1,0 +1,24 @@
+.grid{
+    width: 400px;
+    margin-bottom: 10px;
+    display: grid;
+    border: 0.5px solid black;
+    padding: 10px;
+    place-items: center;
+    gap: 10px;
+   
+}
+.cell{
+    width: 100px;
+    height: 100px;
+    border-radius: 5px;
+    padding: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: lightgray;
+    
+}
+.cell-active{
+    background-color: green;
+}
